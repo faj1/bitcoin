@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94b1686686c5db6775da712753567b65",
+    "content-hash": "572782d86487bd6a0adc3ddff969c4c4",
     "packages": [
         {
             "name": "bitwasp/bech32",
@@ -54,25 +54,27 @@
         },
         {
             "name": "bitwasp/buffertools",
-            "version": "v0.5.7",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Bit-Wasp/buffertools-php.git",
-                "reference": "133746d0b514e0016d8479b54aa97475405a9f1f"
+                "reference": "43c8bc231e5bc3d1f9bf90655b18c8f3e02418a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Bit-Wasp/buffertools-php/zipball/133746d0b514e0016d8479b54aa97475405a9f1f",
-                "reference": "133746d0b514e0016d8479b54aa97475405a9f1f",
+                "url": "https://api.github.com/repos/Bit-Wasp/buffertools-php/zipball/43c8bc231e5bc3d1f9bf90655b18c8f3e02418a9",
+                "reference": "43c8bc231e5bc3d1f9bf90655b18c8f3e02418a9",
                 "shasum": ""
             },
             "require": {
                 "php-64bit": ">=7.0.0"
             },
             "require-dev": {
+                "phpstan/phpstan": "v0.9.x",
                 "phpunit/phpunit": "^6.0",
                 "squizlabs/php_codesniffer": "~2.0"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -96,9 +98,9 @@
             "description": "Toolbox for working with binary and hex data. Similar to NodeJS Buffer.",
             "support": {
                 "issues": "https://github.com/Bit-Wasp/buffertools-php/issues",
-                "source": "https://github.com/Bit-Wasp/buffertools-php/tree/v0.5.7"
+                "source": "https://github.com/Bit-Wasp/buffertools-php/tree/master"
             },
-            "time": "2020-01-17T21:31:49+00:00"
+            "time": "2020-01-17T11:04:28+00:00"
         },
         {
             "name": "composer/semver",
@@ -2520,7 +2522,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "bitwasp/buffertools": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
