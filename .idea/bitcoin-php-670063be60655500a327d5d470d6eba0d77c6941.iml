@@ -6,9 +6,9 @@
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" packagePrefix="BitWasp\Bitcoin\Tests\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bitwasp/bech32" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bitwasp/bitcoinconsensus" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/bitwasp/buffertools" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bitwasp/secp256k1-php" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/faj1/buffertools" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/genkgo/php-asn1" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/lastguest/murmurhash" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "572782d86487bd6a0adc3ddff969c4c4",
+    "content-hash": "200263c00c45dce4b8ddc39b06282b12",
     "packages": [
         {
             "name": "bitwasp/bech32",
@@ -51,56 +51,6 @@
                 "source": "https://github.com/Bit-Wasp/bech32/tree/more-tests"
             },
             "time": "2018-02-05T22:23:47+00:00"
-        },
-        {
-            "name": "bitwasp/buffertools",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Bit-Wasp/buffertools-php.git",
-                "reference": "43c8bc231e5bc3d1f9bf90655b18c8f3e02418a9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Bit-Wasp/buffertools-php/zipball/43c8bc231e5bc3d1f9bf90655b18c8f3e02418a9",
-                "reference": "43c8bc231e5bc3d1f9bf90655b18c8f3e02418a9",
-                "shasum": ""
-            },
-            "require": {
-                "php-64bit": ">=7.0.0"
-            },
-            "require-dev": {
-                "phpstan/phpstan": "v0.9.x",
-                "phpunit/phpunit": "^6.0",
-                "squizlabs/php_codesniffer": "~2.0"
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "BitWasp\\Buffertools\\": "src/Buffertools/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Thomas Kerin",
-                    "homepage": "https://thomaskerin.io"
-                },
-                {
-                    "name": "Ruben de Vries",
-                    "email": "ruben@rubensayshi.com"
-                }
-            ],
-            "description": "Toolbox for working with binary and hex data. Similar to NodeJS Buffer.",
-            "support": {
-                "issues": "https://github.com/Bit-Wasp/buffertools-php/issues",
-                "source": "https://github.com/Bit-Wasp/buffertools-php/tree/master"
-            },
-            "time": "2020-01-17T11:04:28+00:00"
         },
         {
             "name": "composer/semver",
@@ -182,6 +132,56 @@
                 }
             ],
             "time": "2024-09-19T14:15:21+00:00"
+        },
+        {
+            "name": "faj1/buffertools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/faj1/buffertools.git",
+                "reference": "e75c1183bbed9c63749ebac52b9f6296d2fb5aa6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/faj1/buffertools/zipball/e75c1183bbed9c63749ebac52b9f6296d2fb5aa6",
+                "reference": "e75c1183bbed9c63749ebac52b9f6296d2fb5aa6",
+                "shasum": ""
+            },
+            "require": {
+                "php-64bit": ">=8.0.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "2.0.x-dev",
+                "phpunit/phpunit": "^11.4.3",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BitWasp\\Buffertools\\": "src/Buffertools/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Kerin",
+                    "homepage": "https://thomaskerin.io"
+                },
+                {
+                    "name": "Ruben de Vries",
+                    "email": "ruben@rubensayshi.com"
+                }
+            ],
+            "description": "Toolbox for working with binary and hex data. Similar to NodeJS Buffer.",
+            "support": {
+                "issues": "https://github.com/faj1/buffertools/issues",
+                "source": "https://github.com/faj1/buffertools/tree/master"
+            },
+            "time": "2024-11-13T17:38:45+00:00"
         },
         {
             "name": "genkgo/php-asn1",
@@ -2523,7 +2523,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "bitwasp/buffertools": 20
+        "faj1/buffertools": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
